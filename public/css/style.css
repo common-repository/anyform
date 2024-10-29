@@ -1,0 +1,122 @@
+ #anyform-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+ #anyform-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ #anyform-container input[type="text"], 
+ #anyform-container input[type="email"], 
+ #anyform-container input[type="tel"], 
+ #anyform-container input[type="url"], 
+ #anyform-container textarea, 
+ #anyform-container button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+ #anyform-container {
+    padding: 10px 0;
+    margin: 0;
+}
+
+ #anyform-container h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+ #anyform-container fieldset {
+    border: medium none !important;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+ #anyform-container input[type="text"], 
+ #anyform-container input[type="email"], 
+ #anyform-container input[type="tel"], 
+ #anyform-container input[type="url"], 
+ #anyform-container textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+ #anyform-container input[type="text"]:hover, 
+ #anyform-container input[type="email"]:hover, 
+ #anyform-container input[type="tel"]:hover, 
+ #anyform-container input[type="url"]:hover, 
+ #anyform-container textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+ #anyform-container textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+ #anyform-container button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #5c686e;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+ #anyform-container button[type="submit"]:hover {
+    background: #7d8b91;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+ #anyform-container button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+ #anyform-container input:focus, 
+ #anyform-container textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+ #anyform-container ::-webkit-input-placeholder {
+    color: #888;
+}
+
+ #anyform-container :-moz-placeholder {
+    color: #888;
+}
+
+ #anyform-container ::-moz-placeholder {
+    color: #888;
+}
+
+ #anyform-container :-ms-input-placeholder {
+    color: #888;
+}
